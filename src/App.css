@@ -1,0 +1,102 @@
+.Head
+{
+    background-color:purple;
+    height:150px;
+    width:100%;
+    display: flex;
+}
+img
+{
+   padding-top:10px;
+   padding-left:10px;
+   height:140px;
+   width:140px;
+}
+.heading
+{
+   color:white;
+   padding-left:10px;
+   padding-top:30px;
+}
+.project
+{
+    margin-left:700px;
+    color:white;
+    padding-left:10px;
+    padding-top:32px;
+    
+}
+.Mainpart
+{
+    height:530px;
+    width:55%;
+    margin-left:280px;
+    margin-top:20px;
+    
+}
+form
+{
+    padding-top: 80px;
+    padding-left:200px;
+
+}
+input{
+    padding:1rem;
+}
+button
+{
+    margin-top: 10px;
+    width:51%;
+    padding: 0.75rem;
+    background-color:purple;
+    color:white;
+    border-radius: 6%;
+    margin-left:200px;
+
+}
+.bottom-text
+{
+   margin-left:25px;
+}
+.bottom-text,.top-text
+{
+    border:0.25px solid grey;
+}
+.meme--image {
+    width:65%;
+    border-radius: 3px;
+    margin-top: 10px;
+    height:300px;
+    margin-left:133px;
+  }
+  
+  .meme {
+    position: relative;
+    
+  }
+  
+  .meme--text {
+    position: absolute;
+    
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  .bottom {
+    bottom: 0;
+    padding-bottom:30px;
+    color:white;
+  }
+  
+  .top {
+    top: 0;
+    padding-top:30px;
+    color:white;
+  }
