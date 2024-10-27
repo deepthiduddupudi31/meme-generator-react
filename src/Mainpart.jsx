@@ -9,7 +9,6 @@ export default function Mainpart()
         bottomText:"",
         randomImg:"https://i.imgflip.com/1bij.jpg"
      })
-     console.log(memeText.topText,memeText.bottomText);
      function handleInput(e)
      {
           const {name,value}=e.target;

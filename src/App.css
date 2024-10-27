@@ -1,3 +1,8 @@
+*
+{
+   padding:0;
+   margin:0;
+}
 .Head
 {
     background-color:purple;
@@ -16,21 +21,21 @@ img
 {
    color:white;
    padding-left:10px;
-   padding-top:30px;
+   padding-top:45px;
 }
 .project
 {
     margin-left:700px;
     color:white;
     padding-left:10px;
-    padding-top:32px;
+    padding-top:45px;
     
 }
 .Mainpart
 {
     height:530px;
     width:55%;
-    margin-left:280px;
+    margin-left:260px;
     margin-top:20px;
     
 }
@@ -100,3 +105,123 @@ button
     padding-top:30px;
     color:white;
   }
+  @media screen and (max-width:425px)
+  {
+    
+    .Head
+    {
+        height:120px;
+        width:450px;
+        display: flex;
+        
+    }
+    img
+    {
+       padding-top:25px;
+       height:75px;
+       width:75px;
+    }
+    .heading
+    {
+       color:white;
+       padding-top:55px;
+       font-size:15px;
+    }
+    .project
+    {
+        margin-left:10px;
+        color:white;
+        padding-top:55px;
+        font-size: 14px;
+        
+    }
+    .Mainpart
+    {
+        height:400px;
+        width:450px;
+        margin-left:0px;
+        margin-top: auto;
+        
+    }
+    form
+    {
+        padding-top: 80px;
+        padding-left:0px;
+      
+    
+    }
+    input{
+        padding:0.65rem;
+        
+    }
+    button
+    {
+        margin-left:76px;
+    
+    
+    }
+  
+    .meme--image {
+        width:70%;
+        border-radius: 3px;
+        margin-top: 10px;
+        height:300px;
+        margin-left:35px;
+      }
+      .meme--text {
+        position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 1px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+}
+.top {
+  position: absolute;
+  top: 15%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  text-align: center;
+  margin: 0;
+  padding: 5px 10px 0; 
+  padding-left: 0;
+  font-size: 1.8em; 
+  color: white;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.bottom{
+position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%; 
+    text-align: center;
+    margin: 0;
+    padding: 5px 10px 0;
+    padding-left: 0;
+    font-size: 1.8em; 
+    color: white;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+
+      }
+    }
+      
+      
+      
+
+  
+  
